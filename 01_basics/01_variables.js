@@ -1,12 +1,12 @@
 console.log("Welcome");
-let accountId;
-var accountName;
-const accountStatus = "Active";
-accountRegion="India";
+let accountId; //Default - Undefined
+var accountName; //Default - Undefined
+const accountStatus = "Active"; //Must have assigned value
+accountRegion="India"; // Must have assigned value
 
 
-var xg = "Green";
-console.table([accountId,accountName,accountStatus,accountRegion]);
+var xg = "Green"; // Global scope
+console.table([accountId,accountName,accountStatus,accountRegion]); // To display in console as table.
 
 function varExapmle(){ //Function Scoped
     if(true)

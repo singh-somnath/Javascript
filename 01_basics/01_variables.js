@@ -4,6 +4,7 @@ var accountName;
 const accountStatus = "Active";
 accountRegion="India";
 
+
 var xg = "Green";
 console.table([accountId,accountName,accountStatus,accountRegion]);
 
